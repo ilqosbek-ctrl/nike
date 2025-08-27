@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1248px;
+  margin: 0 auto;
+  /* From https://css.glass */
+  background: rgba(65, 63, 63, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(65, 63, 63, 0.45);
+}
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  background-image: url(https://ei.marketwatch.com/Multimedia/2017/03/15/Photos/ZH/MW-FI237_nike03_20170315193808_ZH.jpg?uuid=71fb563a-09d8-11e7-99f7-001cc448aede);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  height: 500px;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar > ul > li > a {
+  text-decoration: none;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  margin: 5px;
+  justify-content: center;
+  border: 1px solid #5b5b5b;
+  width: 250px;
+  padding: 10px 2px;
+  overflow: hidden;
+}
+
+.product > img {
+  height: 250px;
+  width: 250px;
+}
+.men {
+  display: flex;
+  max-width: 1248px;
+  margin: 0 auto;
+}
+.women {
+  display: flex;
+  max-width: 1248px;
+  margin: 0 auto;
+}
